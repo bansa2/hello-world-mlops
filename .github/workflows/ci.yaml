@@ -29,9 +29,9 @@ jobs:
      - name: Install project dependecied
        run: python -m pip install -r requirements.txt
 
-     - name: Train teh model
+     - name: Train the model
        run: |
-         python train.python
+         python train.py
          ls -la artifacts
 
      - name: Upload artifacts
